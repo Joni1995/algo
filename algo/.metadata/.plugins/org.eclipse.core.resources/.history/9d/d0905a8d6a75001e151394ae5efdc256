@@ -1,0 +1,62 @@
+package BOJ_1477_휴게소세우기;
+
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.List;
+import java.util.Scanner;
+
+public class Main {
+	static int N, M, L;
+	static int[] restPlace;
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		// N : 현재 휴게소의 갯수
+		// M : 추가로 지으려는 휴게소의 갯수
+		// L : 고속도로의 길이
+		N = sc.nextInt();
+		M = sc.nextInt();
+		L = sc.nextInt();
+		// 휴게소의 위치
+		restPlace = new int[N];
+		for(int i = 0; i < N; i++) restPlace[i] = sc.nextInt();
+		// 휴게소 위치 입력 끝
+		
+		int start = 0;
+		int end = L;
+		
+		while(start <= end) {
+			int mid = (start+end)/2;
+			
+			if (check(mid) > mid) {
+				start = mid+1;
+			} else {
+				end = mid-1;
+			}
+			
+		} // while문 끝
+		// 출력
+		System.out.println(start);
+	} // main
+
+	private static int check(int mid) {
+		List<Integer> list = new ArrayList<>();
+		
+		list.add(mid);
+		for (int i = 0; i < N; i++) {
+			list.add(restPlace[i]);
+		} // 리스트에 mid랑 기존 배열에 적힌 값 추가
+		// 정렬
+		Collections.sort(list);
+		int max = 0;
+		
+		// 전체 이제 각 구간 길이 비교
+		for (int i = 1; i < list.size(); i++) {
+			int num = list.get(i) - list.get(i-1);
+			max = Math.max(max, num);
+		}
+		
+		// 해당 값 중 최대값 찾기
+		
+		return max;
+	} // check메서드 끝
+} // class

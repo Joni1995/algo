@@ -1,0 +1,19 @@
+package BOJ_5014_스타트링크;
+
+import java.util.Scanner;
+
+public class Main {
+	static int f,s,g,u,d;
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		
+		// f: 건물의 층수, s :현재 위치 , g :목적지, u: 올라가는 층수, d: 내려가는 층수
+		f = sc.nextInt();
+		s = sc.nextInt();
+		g = sc.nextInt();
+		u = sc.nextInt();
+		d = sc.nextInt();
+		
+	} // main
+	
+} // class

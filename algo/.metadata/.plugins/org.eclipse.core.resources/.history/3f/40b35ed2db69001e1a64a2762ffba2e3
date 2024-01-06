@@ -1,0 +1,57 @@
+package BOJ_5014_스타트링크;
+
+import java.util.LinkedList;
+import java.util.Queue;
+import java.util.Scanner;
+
+public class Main {
+	static int f, s, g, u, d, ans;
+
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+
+		// f: 건물의 층수, s :현재 위치 , g :목적지, u: 올라가는 층수, d: 내려가는 층수
+		// (1 ≤ S, G ≤ F ≤ 1000000, 0 ≤ U, D ≤ 1000000)
+		f = sc.nextInt();
+		s = sc.nextInt();
+		g = sc.nextInt();
+		u = sc.nextInt();
+		d = sc.nextInt();
+
+		BFS(s);
+
+		if (ans == -1) {
+			System.out.println("use the stairs");
+		} else {
+			System.out.println(ans);
+		}
+
+	} // main
+
+	private static void BFS(int idx) {
+
+		Queue<Integer> q = new LinkedList<>();
+		q.add(idx);
+
+		int cnt = 0;
+		while (!q.isEmpty()) {
+			int tmp = q.poll();
+			if (tmp == g) {
+				ans = cnt;
+				return;
+			} else if (tmp > f) {
+				ans = -1;
+			} else if (tmp <= f && tmp < g) {
+				tmp += u;
+				cnt++;
+				q.add(tmp);
+			} else if (tmp <= f && tmp > g) {
+				tmp -= d;
+				cnt++;
+				q.add(tmp);
+			}
+		}
+
+	} // BFS 끝
+
+} // class

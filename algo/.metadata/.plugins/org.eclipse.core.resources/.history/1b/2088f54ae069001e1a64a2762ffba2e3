@@ -1,0 +1,84 @@
+package BOJ_5014_스타트링크;
+
+import java.util.LinkedList;
+import java.util.Queue;
+import java.util.Scanner;
+
+public class Main2 {
+	static int f, s, g, u, d, ans;
+	static int[] nums;
+	static boolean[] visited;
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+
+		// f: 건물의 층수, s :현재 위치 , g :목적지, u: 올라가는 층수, d: 내려가는 층수
+		// (1 ≤ S, G ≤ F ≤ 1000000, 0 ≤ U, D ≤ 1000000)
+		f = sc.nextInt();
+		s = sc.nextInt();
+		g = sc.nextInt();
+		u = sc.nextInt();
+		d = sc.nextInt();
+		
+		nums = new int[1000002];
+		visited = new boolean[1000002];
+		for (int i = 0; i < nums.length; i++) {
+			nums[i] = i;
+		}
+		ans = 0;
+		// BFS 탐색에 현재 위치 넣어주기
+		BFS(s);
+
+		if (ans == -1) {
+			System.out.println("use the stairs");
+		} else {
+			System.out.println(ans);
+		}
+
+	} // main
+
+	private static void BFS(int idx) {
+
+		Queue<Integer> q = new LinkedList<>();
+		// 가장 먼저 시작 위치 넣어주기
+		q.add(idx);
+		visited[idx] = true;
+		// 카운트 횟수
+		int cnt = 0;
+		while (!q.isEmpty()) {
+			// q에 넣어준 순서대로 빼기
+			int tmp = q.poll();
+			// 해당 숫자를 방문하지 않았다면
+			if(!visited[tmp]) {
+				// 만약 q에서 나온 숫자가 f(건물의 층수보다 크면 ans = -1 : 계단으로 이동)
+				if (tmp > f) {
+					visited[tmp] = true;
+					tmp -= d;
+					cnt++;
+				}
+				// 그 외 f보다 작다면
+				else {
+					if (tmp == g) {
+						cnt++;
+						ans = cnt;
+						visited[tmp] = true;
+						return;
+					} else if (tmp < g) {
+						tmp += u;
+						cnt++;
+						visited[tmp] = true;
+						q.add(tmp);
+					} else if (tmp > g) {
+						tmp -= d;
+						cnt++;
+						visited[tmp] = true;
+						q.add(tmp);
+					}
+				}
+				
+			}
+			System.out.println("현재 q에서 나온 것은? : " + q.peek());
+		} // while문 끝
+
+	} // BFS 끝
+
+} // class

@@ -1,0 +1,55 @@
+package BOJ_2644_촌수계산;
+
+import java.util.Arrays;
+import java.util.Scanner;
+import java.util.Stack;
+
+public class Main2 {
+	static int n, m, a, b, x, y;
+	static int[][] adjArr;
+
+	public static void main(String[] args) {
+
+		Scanner sc = new Scanner(System.in);
+		// n : 전체 사람 의 수(1 ≤ n ≤ 100)
+		n = sc.nextInt();
+		// a, b : 촌수를 계산해야 하는 서로 다른 두 사람의 번호
+		a = sc.nextInt();
+		b = sc.nextInt();
+		// m : 부모 자식들 간의 관계의 개수
+		m = sc.nextInt();
+		adjArr = new int[n+1][n+1];
+		
+		for (int i = 1; i <=m; i++) {
+			// x : y의 부모 번호 (y: 자식 번호)
+			x = sc.nextInt();
+			y = sc.nextInt();
+			// 부모 자식관의 관계
+			adjArr[x][y] = 1;
+		}
+
+		DFS(a);
+		
+	} // main
+	// stack을 이용해서 풀 수 있을까?
+	public static void DFS(int v) {
+		Stack<Integer> stack = new Stack<>();
+		boolean[] visited = new boolean[n+1];
+		
+		stack.add(v);
+		visited[v] = true;
+		
+		while(!stack.isEmpty()) {
+			int temp = stack.pop();
+			for (int i = 1; i <=n; i++) {
+				if(adjArr[temp][i] == 1 && visited[i] == false) {
+					stack.add(i);
+					visited[i] = true;
+				}
+			}
+		}
+		
+		
+	}
+
+} // class

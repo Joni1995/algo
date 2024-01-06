@@ -1,0 +1,268 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss xmlns:dc="http://purl.org/dc/elements/1.1/" version="2.0" xml:base="https://marketplace.eclipse.org/">
+  <channel>
+    <title>Eclipse Plugins, Bundles and Products - Eclipse Marketplace | Eclipse Foundation - Explore, share, and collaborate on Eclipse Plugins, Tools, and Extensions. Discover new and popular additions to enhance your Eclipse development experience.</title>
+    <link>https://marketplace.eclipse.org/</link>
+    <description/>
+    <language>en</language>
+    
+    <item>
+  <title>PHP Development Tools</title>
+  <link>https://marketplace.eclipse.org/content/php-development-tools</link>
+  <description>
+&lt;span&gt;PHP Development Tools&lt;/span&gt;
+
+            &lt;div class="field field--name-body field--type-text-with-summary field--label-hidden field--item"&gt;  &lt;p&gt;The PHP IDE project delivers a PHP Integrated Development Environment framework for the Eclipse platform. This project encompasses the development components necessary to develop...&lt;/p&gt;
+
+&lt;/div&gt;
+      
+&lt;span&gt;&lt;a title="View user profile." href="https://marketplace.eclipse.org/user/dpakua"&gt;Dawid Pakula&lt;/a&gt;&lt;/span&gt;
+
+&lt;span&gt;Mon, 09/29/2014 - 17:25&lt;/span&gt;
+</description>
+  <pubDate>Mon, 29 Sep 2014 21:25:22 +0000</pubDate>
+    <dc:creator>Dawid Pakula</dc:creator>
+    <guid isPermaLink="false">1944539 at https://marketplace.eclipse.org</guid>
+    <category domain="https://marketplace.eclipse.org/free-tagging/php">PHP</category>
+    <category domain="https://marketplace.eclipse.org/free-tagging/phpide">phpide</category>
+    <category domain="https://marketplace.eclipse.org/free-tagging/pdt">pdt</category>
+    <category domain="https://marketplace.eclipse.org/free-tagging/phpunit">phpunit</category>
+    <category domain="https://marketplace.eclipse.org/free-tagging/unit-test">Unit test</category>
+    <category domain="https://marketplace.eclipse.org/free-tagging/testing">testing</category>
+    <category domain="https://marketplace.eclipse.org/free-tagging/debugging">debugging</category>
+    <category domain="https://marketplace.eclipse.org/free-tagging/profiling">profiling</category>
+    <category domain="https://marketplace.eclipse.org/free-tagging/fileextension_php">fileExtension_php</category>
+    <category domain="https://marketplace.eclipse.org/free-tagging/fileextension_phtml">fileExtension_phtml</category>
+    <category domain="https://marketplace.eclipse.org/free-tagging/nature_orgeclipsephpcorephpnature">nature_org.eclipse.php.core.PHPNature</category>
+    </item>
+<item>
+  <title>Java Antidecompiler</title>
+  <link>https://marketplace.eclipse.org/content/java-antidecompiler</link>
+  <description>
+&lt;span&gt;Java Antidecompiler&lt;/span&gt;
+
+            &lt;div class="field field--name-body field--type-text-with-summary field--label-hidden field--item"&gt;  &lt;p&gt;Strongest Java code and resources protection tool Supports Java 8, 11, 14, and 15 Runs as Eclipse, IdeaJ and NetBeans plug-ins, stand-alone, and console Java apps Protects library...&lt;/p&gt;
+
+&lt;/div&gt;
+      
+&lt;span&gt;&lt;a title="View user profile." href="https://marketplace.eclipse.org/user/ybendersky"&gt;Yury Bendersky&lt;/a&gt;&lt;/span&gt;
+
+&lt;span&gt;Tue, 11/20/2012 - 09:09&lt;/span&gt;
+</description>
+  <pubDate>Tue, 20 Nov 2012 14:09:33 +0000</pubDate>
+    <dc:creator>Yury Bendersky</dc:creator>
+    <guid isPermaLink="false">536829 at https://marketplace.eclipse.org</guid>
+    <category domain="https://marketplace.eclipse.org/free-tagging/java-obfuscator">java obfuscator</category>
+    <category domain="https://marketplace.eclipse.org/free-tagging/code-protection">code protection</category>
+    <category domain="https://marketplace.eclipse.org/free-tagging/resource-protection">resource protection</category>
+    <category domain="https://marketplace.eclipse.org/free-tagging/byte-code-encryption">byte-code encryption</category>
+    </item>
+<item>
+  <title>IBM Liberty Developer Tools</title>
+  <link>https://marketplace.eclipse.org/content/ibm-liberty-developer-tools</link>
+  <description>
+&lt;span&gt;IBM Liberty Developer Tools&lt;/span&gt;
+
+            &lt;div class="field field--name-body field--type-text-with-summary field--label-hidden field--item"&gt;  &lt;p&gt;An Eclipse IDE plugin for building and deploying Java EE, OSGi and Web 2.0 applications to WebSphere Liberty. For more information about installing and downloading the tools...&lt;/p&gt;
+
+&lt;/div&gt;
+      
+&lt;span&gt;&lt;a title="View user profile." href="https://marketplace.eclipse.org/user/canderson"&gt;Carl Anderson&lt;/a&gt;&lt;/span&gt;
+
+&lt;span&gt;Wed, 07/02/2014 - 08:24&lt;/span&gt;
+</description>
+  <pubDate>Wed, 02 Jul 2014 12:24:46 +0000</pubDate>
+    <dc:creator>Carl Anderson</dc:creator>
+    <guid isPermaLink="false">1778478 at https://marketplace.eclipse.org</guid>
+    <category domain="https://marketplace.eclipse.org/free-tagging/tools">tools</category>
+    <category domain="https://marketplace.eclipse.org/free-tagging/websphere">WebSphere</category>
+    <category domain="https://marketplace.eclipse.org/free-tagging/liberty">Liberty</category>
+    <category domain="https://marketplace.eclipse.org/free-tagging/open-liberty">Open Liberty</category>
+    <category domain="https://marketplace.eclipse.org/free-tagging/jee">jee</category>
+    <category domain="https://marketplace.eclipse.org/free-tagging/j2ee">J2EE</category>
+    <category domain="https://marketplace.eclipse.org/free-tagging/wdt">wdt</category>
+    </item>
+<item>
+  <title>IBM WebSphere Application Server V8.5x Developer Tools</title>
+  <link>https://marketplace.eclipse.org/content/ibm-websphere-application-server-v85x-developer-tools</link>
+  <description>
+&lt;span&gt;IBM WebSphere Application Server V8.5x Developer Tools&lt;/span&gt;
+
+            &lt;div class="field field--name-body field--type-text-with-summary field--label-hidden field--item"&gt;  &lt;p&gt;An Eclipse IDE plugin for building and deploying Java EE, OSGi and Web 2.0 applications to WebSphere Application Server V8.5x. For more information about installing and downloading...&lt;/p&gt;
+
+&lt;/div&gt;
+      
+&lt;span&gt;&lt;a title="View user profile." href="https://marketplace.eclipse.org/user/canderson"&gt;Carl Anderson&lt;/a&gt;&lt;/span&gt;
+
+&lt;span&gt;Wed, 07/02/2014 - 08:38&lt;/span&gt;
+</description>
+  <pubDate>Wed, 02 Jul 2014 12:38:38 +0000</pubDate>
+    <dc:creator>Carl Anderson</dc:creator>
+    <guid isPermaLink="false">1778507 at https://marketplace.eclipse.org</guid>
+    <category domain="https://marketplace.eclipse.org/free-tagging/tools">tools</category>
+    <category domain="https://marketplace.eclipse.org/free-tagging/websphere">WebSphere</category>
+    <category domain="https://marketplace.eclipse.org/free-tagging/liberty">Liberty</category>
+    <category domain="https://marketplace.eclipse.org/free-tagging/jee">jee</category>
+    <category domain="https://marketplace.eclipse.org/free-tagging/j2ee">J2EE</category>
+    <category domain="https://marketplace.eclipse.org/free-tagging/wdt">wdt</category>
+    </item>
+<item>
+  <title>Spring Tools 4 (aka Spring Tool Suite 4)</title>
+  <link>https://marketplace.eclipse.org/content/spring-tools-4-aka-spring-tool-suite-4</link>
+  <description>
+&lt;span&gt;Spring Tools 4 (aka Spring Tool Suite 4)&lt;/span&gt;
+
+            &lt;div class="field field--name-body field--type-text-with-summary field--label-hidden field--item"&gt;  &lt;p&gt;Spring Tools 4 is the next generation of Spring Boot tooling for your favorite coding enrivonment. Largely rebuilt from scratch, it provides world-class support for developing...&lt;/p&gt;
+
+&lt;/div&gt;
+      
+&lt;span&gt;&lt;a title="View user profile." href="https://marketplace.eclipse.org/user/mlippert"&gt;Martin Lippert&lt;/a&gt;&lt;/span&gt;
+
+&lt;span&gt;Fri, 07/11/2014 - 12:41&lt;/span&gt;
+</description>
+  <pubDate>Fri, 11 Jul 2014 16:41:17 +0000</pubDate>
+    <dc:creator>Martin Lippert</dc:creator>
+    <guid isPermaLink="false">1794107 at https://marketplace.eclipse.org</guid>
+    <category domain="https://marketplace.eclipse.org/free-tagging/spring">spring</category>
+    <category domain="https://marketplace.eclipse.org/free-tagging/spring-ide">Spring IDE</category>
+    <category domain="https://marketplace.eclipse.org/free-tagging/cloud">Cloud</category>
+    <category domain="https://marketplace.eclipse.org/free-tagging/spring-tool-suite">Spring Tool Suite</category>
+    <category domain="https://marketplace.eclipse.org/free-tagging/sts">STS</category>
+    <category domain="https://marketplace.eclipse.org/free-tagging/lsp">LSP</category>
+    </item>
+<item>
+  <title>Synopsys Code Sight</title>
+  <link>https://marketplace.eclipse.org/content/synopsys-code-sight</link>
+  <description>
+&lt;span&gt;Synopsys Code Sight&lt;/span&gt;
+
+            &lt;div class="field field--name-body field--type-text-with-summary field--label-hidden field--item"&gt;  &lt;p&gt;Synopsys Code Sight for Eclipse The Synopsys® Code Sight™ plug-in helps you find and fix security and quality issues in your software while you code. It can quickly identify...&lt;/p&gt;
+
+&lt;/div&gt;
+      
+&lt;span&gt;&lt;a title="View user profile." href="https://marketplace.eclipse.org/user/scodesight"&gt;Synopsys Code Sight&lt;/a&gt;&lt;/span&gt;
+
+&lt;span&gt;Fri, 02/15/2019 - 16:30&lt;/span&gt;
+</description>
+  <pubDate>Fri, 15 Feb 2019 21:30:35 +0000</pubDate>
+    <dc:creator>Synopsys Code Sight</dc:creator>
+    <guid isPermaLink="false">4503269 at https://marketplace.eclipse.org</guid>
+    <category domain="https://marketplace.eclipse.org/free-tagging/sast">SAST</category>
+    <category domain="https://marketplace.eclipse.org/free-tagging/security">security</category>
+    <category domain="https://marketplace.eclipse.org/free-tagging/blackduck">blackduck</category>
+    <category domain="https://marketplace.eclipse.org/free-tagging/coverity">coverity</category>
+    <category domain="https://marketplace.eclipse.org/free-tagging/codesight">codesight</category>
+    <category domain="https://marketplace.eclipse.org/free-tagging/sca">sca</category>
+    <category domain="https://marketplace.eclipse.org/free-tagging/static-analysis">static analysis</category>
+    <category domain="https://marketplace.eclipse.org/free-tagging/software-composition-analysis">software composition analysis</category>
+    <category domain="https://marketplace.eclipse.org/free-tagging/open-source-analysis">open source analysis</category>
+    <category domain="https://marketplace.eclipse.org/free-tagging/black-duck">black duck</category>
+    <category domain="https://marketplace.eclipse.org/free-tagging/analysis">analysis</category>
+    <category domain="https://marketplace.eclipse.org/free-tagging/code-sight">code sight</category>
+    <category domain="https://marketplace.eclipse.org/free-tagging/synopsys">synopsys</category>
+    </item>
+<item>
+  <title>Teamscale Integration for Eclipse</title>
+  <link>https://marketplace.eclipse.org/content/teamscale-integration-eclipse</link>
+  <description>
+&lt;span&gt;Teamscale Integration for Eclipse&lt;/span&gt;
+
+            &lt;div class="field field--name-body field--type-text-with-summary field--label-hidden field--item"&gt;  &lt;p&gt;The Teamscale Integration for Eclipse allows for seamless browsing of quality defects found by the Teamscale software‐quality analysis server . Teamscale analyzes your source code...&lt;/p&gt;
+
+&lt;/div&gt;
+      
+&lt;span&gt;&lt;a title="View user profile." href="https://marketplace.eclipse.org/user/tkinnen"&gt;Thomas Kinnen&lt;/a&gt;&lt;/span&gt;
+
+&lt;span&gt;Thu, 02/12/2015 - 10:16&lt;/span&gt;
+</description>
+  <pubDate>Thu, 12 Feb 2015 15:16:07 +0000</pubDate>
+    <dc:creator>Thomas Kinnen</dc:creator>
+    <guid isPermaLink="false">2188950 at https://marketplace.eclipse.org</guid>
+    <category domain="https://marketplace.eclipse.org/free-tagging/teamscale">teamscale</category>
+    <category domain="https://marketplace.eclipse.org/free-tagging/clone-detection">clone detection</category>
+    <category domain="https://marketplace.eclipse.org/free-tagging/software-quality">Software Quality</category>
+    </item>
+<item>
+  <title>jSparrow - Java Refactoring and Java Code Analyzer</title>
+  <link>https://marketplace.eclipse.org/content/jsparrow-java-refactoring-and-java-code-analyzer</link>
+  <description>
+&lt;span&gt;jSparrow - Java Refactoring and Java Code Analyzer&lt;/span&gt;
+
+            &lt;div class="field field--name-body field--type-text-with-summary field--label-hidden field--item"&gt;  &lt;p&gt;jSparrow plug-in developed for Java refactoring jSparrow is an IDE extension that helps you detect and fix quality problems as you write code. jSparrow flags errors, similar to a...&lt;/p&gt;
+
+&lt;/div&gt;
+      
+&lt;span&gt;&lt;a title="View user profile." href="https://marketplace.eclipse.org/user/mprehofer"&gt;Michaela Prehofer&lt;/a&gt;&lt;/span&gt;
+
+&lt;span&gt;Tue, 06/20/2017 - 11:34&lt;/span&gt;
+</description>
+  <pubDate>Tue, 20 Jun 2017 15:34:11 +0000</pubDate>
+    <dc:creator>Michaela Prehofer</dc:creator>
+    <guid isPermaLink="false">3503691 at https://marketplace.eclipse.org</guid>
+    <category domain="https://marketplace.eclipse.org/free-tagging/java">java</category>
+    <category domain="https://marketplace.eclipse.org/free-tagging/refactoring">refactoring</category>
+    <category domain="https://marketplace.eclipse.org/free-tagging/static-analysis">static analysis</category>
+    <category domain="https://marketplace.eclipse.org/free-tagging/quality">quality</category>
+    <category domain="https://marketplace.eclipse.org/free-tagging/security">security</category>
+    <category domain="https://marketplace.eclipse.org/free-tagging/junit-refactoring">JUnit refactoring</category>
+    <category domain="https://marketplace.eclipse.org/free-tagging/java-code-analyzer">Java Code Analyzer</category>
+    <category domain="https://marketplace.eclipse.org/free-tagging/statc-code-analysis">statc code analysis</category>
+    <category domain="https://marketplace.eclipse.org/free-tagging/code-quality">code quality</category>
+    <category domain="https://marketplace.eclipse.org/free-tagging/security-analysis">Security Analysis</category>
+    <category domain="https://marketplace.eclipse.org/free-tagging/jsparrow">jSparrow</category>
+    </item>
+<item>
+  <title>PyDev - Python IDE for Eclipse</title>
+  <link>https://marketplace.eclipse.org/content/pydev-python-ide-eclipse</link>
+  <description>
+&lt;span&gt;PyDev - Python IDE for Eclipse&lt;/span&gt;
+
+            &lt;div class="field field--name-body field--type-text-with-summary field--label-hidden field--item"&gt;  &lt;p&gt;PyDev is a plugin that enables Eclipse to be used as a Python IDE (supporting also Jython and IronPython). It uses advanced type inference techniques which allow it to provide...&lt;/p&gt;
+
+&lt;/div&gt;
+      
+&lt;span&gt;&lt;a title="View user profile." href="https://marketplace.eclipse.org/user/fzadroznyr0g"&gt;Fabio Zadrozny&lt;/a&gt;&lt;/span&gt;
+
+&lt;span&gt;Wed, 07/07/2004 - 08:06&lt;/span&gt;
+</description>
+  <pubDate>Wed, 07 Jul 2004 12:06:36 +0000</pubDate>
+    <dc:creator>Fabio Zadrozny</dc:creator>
+    <guid isPermaLink="false">114 at https://marketplace.eclipse.org</guid>
+    <category domain="https://marketplace.eclipse.org/free-tagging/ide">IDE</category>
+    <category domain="https://marketplace.eclipse.org/free-tagging/python">Python</category>
+    <category domain="https://marketplace.eclipse.org/free-tagging/aptana">Aptana</category>
+    <category domain="https://marketplace.eclipse.org/free-tagging/pydev">Pydev</category>
+    <category domain="https://marketplace.eclipse.org/free-tagging/django">Django</category>
+    <category domain="https://marketplace.eclipse.org/free-tagging/favorite">Favorite</category>
+    <category domain="https://marketplace.eclipse.org/free-tagging/python3">Python3</category>
+    <category domain="https://marketplace.eclipse.org/free-tagging/fileextension_py">fileExtension_py</category>
+    </item>
+<item>
+  <title>Heirloom® SDK</title>
+  <link>https://marketplace.eclipse.org/content/heirloom%C2%AE-sdk</link>
+  <description>
+&lt;span&gt;Heirloom® SDK&lt;/span&gt;
+
+            &lt;div class="field field--name-body field--type-text-with-summary field--label-hidden field--item"&gt;  &lt;p&gt;Heirloom is the industry's only solution for automatically replatforming &amp; refactoring mainframe workloads as cloud-native Java applications on any cloud while preserving existing...&lt;/p&gt;
+
+&lt;/div&gt;
+      
+&lt;span&gt;&lt;a title="View user profile." href="https://marketplace.eclipse.org/user/gcrook"&gt;Gary Crook&lt;/a&gt;&lt;/span&gt;
+
+&lt;span&gt;Wed, 04/18/2018 - 19:04&lt;/span&gt;
+</description>
+  <pubDate>Wed, 18 Apr 2018 23:04:21 +0000</pubDate>
+    <dc:creator>Gary Crook</dc:creator>
+    <guid isPermaLink="false">4037898 at https://marketplace.eclipse.org</guid>
+    <category domain="https://marketplace.eclipse.org/free-tagging/cobol">cobol</category>
+    <category domain="https://marketplace.eclipse.org/free-tagging/java">java</category>
+    <category domain="https://marketplace.eclipse.org/free-tagging/jcl">jcl</category>
+    <category domain="https://marketplace.eclipse.org/free-tagging/pli">PL/I</category>
+    <category domain="https://marketplace.eclipse.org/free-tagging/ibm">ibm</category>
+    <category domain="https://marketplace.eclipse.org/free-tagging/micro-focus">Micro Focus</category>
+    <category domain="https://marketplace.eclipse.org/free-tagging/mainframe">mainframe</category>
+    <category domain="https://marketplace.eclipse.org/free-tagging/mainframe-migration">mainframe migration</category>
+    </item>
+
+  </channel>
+</rss>
